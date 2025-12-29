@@ -430,3 +430,12 @@
 ③来週のオリジナル目標：修正
 ④メンターに相談したいこと：修正
 ------------------------
+{"date":"2025\/12\/28 20:32:40","achievement_rate":"27","achievement":"aaaaa","emotions":["イライラ","安心","怖い"],"thoughts":"aaaaa","hours":{"mon":"1","tue":"1","wed":"1","thu":"1","fri":"1","sat":"1","sun":"1","sum":"1"},"curriculum_title":"c","original_goal":"111111","mentor_consultation":"11111"}
+------------------------
+{"date":"2025\/12\/29 10:47:45","achievement_rate":"32","achievement":"ああああああああ","emotions":["満足","楽しい","退屈"],"thoughts":"あああああああ","hours":{"mon":"1","tue":"1","wed":"1","thu":"1","fri":"1","sat":"1","sun":"1","sum":"1"},"curriculum_title":"b","original_goal":"あああああああ","mentor_consultation":"あああああああ"}
+{"date":"2025\/12\/29 10:49:10","achievement_rate":"32","achievement":"ああああああああ","emotions":["満足","楽しい","退屈"],"thoughts":"あああああああ","hours":{"mon":"1","tue":"1","wed":"1","thu":"1","fri":"1","sat":"1","sun":"1","sum":"1"},"curriculum_title":"b","original_goal":"あああああああ","mentor_consultation":"あああああああ"}
+{"date":"2025\/12\/29 10:50:50","achievement_rate":"32","achievement":"ああああああああ","emotions":["満足","楽しい","退屈"],"thoughts":"あああああああ","hours":{"mon":"1","tue":"1","wed":"1","thu":"1","fri":"1","sat":"1","sun":"1","sum":"1"},"curriculum_title":"b","original_goal":"あああああああ","mentor_consultation":"あああああああ"}
+{"date":"2025\/12\/29 10:51:00","achievement_rate":"32","achievement":"ああああああああ","emotions":["満足","楽しい","退屈"],"thoughts":"あああああああ","hours":{"mon":"1","tue":"1","wed":"1","thu":"1","fri":"1","sat":"1","sun":"1","sum":"1"},"curriculum_title":"b","original_goal":"あああああああ","mentor_consultation":"あああああああ"}
+{"date":"2025\/12\/29 11:02:53","achievement_rate":"35","achievement":"いいいいいい","emotionsText":"楽しい \/ イライラ \/ ワクワク","thoughts":"いいいいいい","hours":{"mon":"1","tue":"1","wed":"1","thu":"1","fri":"1","sat":"1","sun":"1","sum":"1"},"curriculum_title":"c","original_goal":"いいいいいい","mentor_consultation":"いいいいいい"}
+{"date":"2025\/12\/29 11:44:07","achievement_rate":"97","achievement":"array修正","emotionsText":"満足 \/ 楽しい \/ 退屈","thoughts":"array修正","hours":{"mon":"2","tue":"2","wed":"2","thu":"2","fri":"2","sat":"2","sun":"2","sum":"2"},"curriculum_title":"d","original_goal":"array修正","mentor_consultation":"array修正"}
+{"date":"2025\/12\/29 14:46:45","achievement_rate":"39","achievement":"あああああああ","emotionsText":"不安 \/ 安心","thoughts":"ああああああ","hours":{"mon":"1","tue":"1","wed":"1","thu":"1","fri":"1","sat":"1","sun":"1","sum":"1"},"curriculum_title":"c","original_goal":"あああああああ","mentor_consultation":"ああああああ"}

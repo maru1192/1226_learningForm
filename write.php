@@ -21,28 +21,54 @@ $curriculum_title = $_POST['curriculum_title'];
 $original_goal = $_POST['original_goal'];
 $mentor_consultation = $_POST['mentor_consultation'];
 
-$data = "記録日：".$date ."\n".
-"①目標の達成率：".$achievement_rate ."\n".
-"②目標の達成要因/未達要因：".$achievement ."\n".
-"③今週を振り返って印象に残っている感情：".$emotionsText ."\n".
-"④今週の感想・学び・今の気持ち：".$thoughts ."\n".
-"①目標学習時間" ."\n".
-"月：".$hours_mon ."\n".
-"火：".$hours_tue ."\n".
-"水：".$hours_wed ."\n".
-"木：".$hours_thu ."\n".
-"金：".$hours_fri ."\n".
-"土：".$hours_sat ."\n".
-"日：".$hours_sun ."\n".
-"合計：".$hours_sum ."\n".
-"②来週のカリキュラム達成目標：".$curriculum_title ."\n".
-"③来週のオリジナル目標：".$original_goal ."\n".
-"④メンターに相談したいこと：".$mentor_consultation ."\n".
-"------------------------" ."\n";
+
+$record = [
+    'date' => $date,
+    'achievement_rate' => $achievement_rate,
+    'achievement' => $achievement,
+    'emotionsText' => $emotionsText,
+    'thoughts' => $thoughts,
+    'hours' => [
+        'mon' => $hours_mon,
+        'tue' => $hours_tue,
+        'wed' => $hours_wed,
+        'thu' => $hours_thu,
+        'fri' => $hours_fri,
+        'sat' => $hours_sat,
+        'sun' => $hours_sun,
+        'sum' => $hours_sum,
+    ],
+    'curriculum_title' => $curriculum_title,
+    'original_goal' => $original_goal,
+    'mentor_consultation' => $mentor_consultation,
+];
+
+$line = json_encode($record, JSON_UNESCAPED_UNICODE) . "\n";
+
+file_put_contents('data/data.txt',$line, FILE_APPEND) .PHP_EOL;
+
+// $data = "記録日：".$date ."\n".
+// "①目標の達成率：".$achievement_rate ."\n".
+// "②目標の達成要因/未達要因：".$achievement ."\n".
+// "③今週を振り返って印象に残っている感情：".$emotionsText ."\n".
+// "④今週の感想・学び・今の気持ち：".$thoughts ."\n".
+// "①目標学習時間" ."\n".
+// "月：".$hours_mon ."\n".
+// "火：".$hours_tue ."\n".
+// "水：".$hours_wed ."\n".
+// "木：".$hours_thu ."\n".
+// "金：".$hours_fri ."\n".
+// "土：".$hours_sat ."\n".
+// "日：".$hours_sun ."\n".
+// "合計：".$hours_sum ."\n".
+// "②来週のカリキュラム達成目標：".$curriculum_title ."\n".
+// "③来週のオリジナル目標：".$original_goal ."\n".
+// "④メンターに相談したいこと：".$mentor_consultation ."\n".
+// "------------------------" ."\n";
 
 
 
-file_put_contents('data/data.txt',$data, FILE_APPEND) .PHP_EOL;
+// file_put_contents('data/data.txt',$data, FILE_APPEND) .PHP_EOL;
 ?>
 
 <!DOCTYPE html>
@@ -146,6 +172,7 @@ file_put_contents('data/data.txt',$data, FILE_APPEND) .PHP_EOL;
 
         <div class="swrite_actions">
             <a class="swrite_btn swrite_btn_primary" href="index.html">← フォームに戻る</a>
+            <a class="list_btn list_btn_primary" href="result.php">フォーム回答一覧</a>
         </div>
         </section>
 

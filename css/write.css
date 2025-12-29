@@ -195,7 +195,8 @@ body {
     margin-top: 16px;
 }
 
-.swrite_btn {
+.swrite_btn,
+.list_btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -211,12 +212,14 @@ body {
     transition: transform .08s ease, box-shadow .12s ease;
 }
 
-.swrite_btn:hover {
+.swrite_btn:hover,
+.list_btn:hover {
     transform: translateY(-1px);
     box-shadow: 0 12px 24px rgba(15, 23, 42, .08);
 }
 
-.swrite_btn_primary {
+.swrite_btn_primary,
+.list_btn_primary {
     background: linear-gradient(90deg, rgba(102, 194, 255, .35), rgba(122, 215, 181, .35));
     border: 1px solid rgba(0, 0, 0, .08);
 }
